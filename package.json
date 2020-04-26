@@ -1,6 +1,6 @@
 {
    "name": "@bemoje/arr-for-each-reverse",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "description": "Iterate an array in reverse.",
    "main": "dist/arr-for-each-reverse.umd.js",
    "module": "dist/arr-for-each-reverse.esm.js",
@@ -44,7 +44,10 @@
       "web": "https://github.io/bemoje/"
    },
    "license": "MIT",
-   "dependencies": {},
+   "dependencies": {
+      "@bemoje/assert-args": "^1.0.0",
+      "@bemoje/assert-type": "^1.0.0"
+   },
    "devDependencies": {
       "babel-core": "^6.26.3",
       "babel-jest": "^25.4.0",
